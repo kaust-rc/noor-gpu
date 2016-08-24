@@ -2,9 +2,12 @@
 
 
 noor-gpu is a GPU cluster managed by Research Computing at KAUST.
+Documentation available at [kaust-rc.github.io/noor-gpu](https://kaust-rc.github.io/noor-gpu)
+
 
 | Num Nodes | GPU     | GPU per Node  |GPU Mem/Card|CUDA cores|
 |:---------:|:-------:|:-------------:|:----------:|:--------:|
+| 1 | k20 | 7 | 5GB||Awaiting delivery of extra k20|
 | 8 | k20 | 8 | 5GB|2496|
 | 3 | k40 | 8 | 12GB|2880|
 | 2 | k40 | 1 | 12GB|2880|
@@ -12,17 +15,14 @@ noor-gpu is a GPU cluster managed by Research Computing at KAUST.
 
 
 
-|Application/Compilers/Libraries|	Version|
-| ------------------------------|--------|
-|CUDA|	7.5|
-|cuDNN|	5.0|
-|Keras with Thaeno backend||
-|NAMD|2.11|
-|gromacs|	2016|
-|lammps|	2016|
-|vasp|	not installed yet, under testing|
-|intel compiler|	2015|
-|gcc|	4.6.0, 4.8.1|
+|Application/Compilers/Librarie |
+| ------------------------------|
+|CUDA, cuDNN|
+|Keras with Thaeno backend|
+|NAMD, gromacs, lammps|
+|vasp: under testing|
+|nvcc, gcc, icc|
+
 
 
 ~~~~bash
@@ -32,10 +32,10 @@ noor-gpu is a GPU cluster managed by Research Computing at KAUST.
 #SBATCH -o gpu.%j.out               # Specify File to which standard out will be written
 #SBATCH -e gpu.%j.err               # Specify File to which standard err will be written
  
-#SBATCH --gres=gpu:k20:2 -n 2 -N 1 #2 processes with 2 GPU on 1 node (note lowercase 'k')
+#SBATCH --gres=gpu:k20:1 -n 1 -N 1 #1 processes with 1 GPU on 1 node (note lowercase 'k')
  
 module purge
-module load cuda mpich
+module load cuda
  
 mpirun ./deviceQuery
 ~~~~
