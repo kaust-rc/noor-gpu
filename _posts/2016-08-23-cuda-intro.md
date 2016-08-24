@@ -7,6 +7,7 @@ Some information from [Nvidia Developer Zone](https://developer.nvidia.com/accel
 
 
 Nvidia provides some great samples:
+
 ```
 #Copy the nvidia-samples from /opt/share to user home
 cp -r /opt/share/cuda/7.5/NVIDIA_CUDA-7.5_Samples/ ~
@@ -21,6 +22,16 @@ cd ~/NVIDIA_CUDA-7.5_Samples/1_Utilities/deviceQuery
 ./deviceQuery
 ```
 
+```python
+def hello():
+    print 'hello'
+```
 
 
 # Cuda Hello World
+```c
+int main(){
+  hello<<<num_blocks, num_threads>>>();
+}
+
+```
