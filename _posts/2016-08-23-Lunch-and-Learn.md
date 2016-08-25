@@ -5,9 +5,9 @@ date: 2016-08-26 16:24:06 -0700
 comments: false
 ---
 
-# Lunch & Learn 
+# Lunch & Learn noor-gpu Introduction
 
-The first lunch and learn will be held on August 30, 2016 12:30 in  Bldg 14, Room R215.  [Please register for the event here.](http://goo.gl/forms/1PIKqaZ8AZK3jhL43)
+The first lunch and learn to introduce the noor-gpu cluster will be held on August 30, 2016 12:30 in  Bldg 14, Room R215.  [Please register for the event here.](http://goo.gl/forms/1PIKqaZ8AZK3jhL43)
 
 |Agenda|noor-gpu|
 |------|--------|
