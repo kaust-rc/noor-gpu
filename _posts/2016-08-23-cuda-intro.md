@@ -11,6 +11,7 @@ Some information from [Nvidia Developer Zone](https://developer.nvidia.com/accel
 
 [Good video](https://youtu.be/Ed_h2km0liI) to start writing CUDA.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ed_h2km0liI" frameborder="0" allowfullscreen></iframe>
 
 Nvidia provides some great samples:
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lunch and Learn"
-date: 2016-08-26 16:24:06 -0700
+date: 2016-08-23 16:24:06 -0700
 comments: false
 ---
 
