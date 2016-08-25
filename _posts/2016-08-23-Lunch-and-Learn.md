@@ -12,6 +12,6 @@ The first lunch and learn to introduce the noor-gpu cluster will be held on Augu
 |Agenda|noor-gpu|
 |------|--------|
 |12h30 |Lunch|
-|13h00 |Introduction to the new cluster: noor-gpu|
+|13h00 |Introduction to the gpu cluster: noor-gpu|
 |13h15 |How to use slurm on noor-gpu|
 |13h30 |Cuda hello world|
