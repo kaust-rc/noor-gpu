@@ -1,4 +1,6 @@
+.highlight  { background: #314045; }
 .highlight .hll { background-color: #49483e }
+/*Lifted from Agus Makmun - https://github.com/agusmakmu*/
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */
