@@ -1,0 +1,68 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
+
+    /*background-image: url("/noor-gpu/images/checker.png");
+    background-repeat: repeat-y;*/
+
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: #ee4444;
+}
+
+.sidebar h1 {
+    color: #ee4444;
+    font-size: 1.3em;
+}
+
+.sidebar a {
+    color: #428bca;
+}
+
+.sidebar li {
+    margin-top: .7em;
+    line-height: 1em;
+}
+
+.sidebar a:hover {
+    color: #3071a9;
+}
+
+.container-left {
+    margin: 0;
+}
+
+.well h1 {
+    color: #696969;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.author {
+    color: #ee4444;
+}
+
+.author a {
+    color: #ee4444;
+}
+
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid black;
+    padding: 2px;
+}

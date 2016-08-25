@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: noor-gpu
-description: noor-gpu
+description: "noor-gpu: 343TeraFLOPS"
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://kaust-rc.github.io/noor-gpu
@@ -34,6 +34,6 @@ paginate: 3
 
 highlighter: rouge
 markdown: kramdown
-#gems: ['jekyll-paginate']
+gems: ['jekyll-paginate']
 
 exclude: ['README.md', 'LICENSE']

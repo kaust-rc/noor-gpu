@@ -1,3 +1,9 @@
+---
+layout: post
+title: "CUDA on noor-gpu"
+date: 2016-08-22 16:25:06 -0700
+comments: false
+---
 # Introduction to CUDA on Noor GPU
 
 
