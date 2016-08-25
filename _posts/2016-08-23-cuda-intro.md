@@ -27,17 +27,3 @@ make
 cd ~/NVIDIA_CUDA-7.5_Samples/1_Utilities/deviceQuery
 ./deviceQuery
 ```
-
-```python
-def hello():
-    print 'hello'
-```
-
-
-# Cuda Hello World
-```c
-int main(){
-  hello<<<num_blocks, num_threads>>>();
-}
-
-```
