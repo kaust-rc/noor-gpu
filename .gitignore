@@ -1,2 +1,4 @@
 _site
-
+gpu-hello-world/gpu.out
+gpu-hello-world/gpu.err
+gpu-hello-world/hello-world
