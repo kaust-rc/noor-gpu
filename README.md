@@ -15,8 +15,8 @@ Documentation available at [kaust-rc.github.io/noor-gpu](https://kaust-rc.github
 
 
 
-|Application/Compilers/Librarie |
-| ------------------------------|
+|Application/Compilers/Libraries |
+| -------------------------------|
 |CUDA, cuDNN|
 |Keras with Thaeno backend|
 |NAMD, gromacs, lammps|
