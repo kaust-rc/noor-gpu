@@ -91,7 +91,7 @@ Using device 4 (rank 20, local rank 4, local size 8) : Tesla K40m
 
 You should have one rank per GPU otherwise you will not benefit from GPU performance.
 
-## Caveata
+## Caveat
   * You cannot set NPAR or NCORE parameters, let VASP set the NOCRE value for you
   * You can only use ```ALGO=Normal, Fast, and VeryFast``` when running VASP on GPU
   * You have to use ```mpirun``` to see the rank to GPU mapping otherwise you could use ```srun``` as used in pure CPU runs
