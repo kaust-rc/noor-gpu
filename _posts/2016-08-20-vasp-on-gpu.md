@@ -104,6 +104,4 @@ You should have one rank per GPU otherwise you will not benefit from GPU perform
   * [GPU port of VASP](http://cms.mpi.univie.ac.at/wiki/index.php/GPU_port_of_VASP)
   * [Release Notes](https://www.vasp.at/index.php/news/44-administrative/115-new-release-vasp-5-4-1-with-gpu-support)
   * [Peter Larsson (Linkoping Uni) experience with VASP on GPU](https://www.nsc.liu.se/~pla/blog/2015/11/16/vaspgpu/)
-  * [Talk (18:36 duration) by Max Hutchinson at SC 15](http://images.nvidia.com/events/sc15/SC5120-vasp-gpus.html") 
-
-
+  * [Talk (18:36 duration) by Max Hutchinson at SC 15](http://images.nvidia.com/events/sc15/SC5120-vasp-gpus.html) 
