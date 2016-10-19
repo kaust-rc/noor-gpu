@@ -1,3 +1,10 @@
+---
+layout: post
+title: "LAMMPS on noor-gpu"
+date: 2016-08-19 16:25:06 -0700
+comments: false
+---
+
 
 # VASP on GPU
 
