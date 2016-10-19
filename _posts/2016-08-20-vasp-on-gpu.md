@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LAMMPS on noor-gpu"
+title: "VASP on noor-gpu"
 date: 2016-08-19 16:25:06 -0700
 comments: false
 ---
@@ -15,8 +15,9 @@ Today's limit is that you can use at most as many ranks as GPU cards on the node
 ## Running on GPU
 
 VASP on GPU comes in two flavors:
-  * ```vasp-gpu``` to run **standard** VASP on GPU cards
-  * ```vasp-gpu-so``` to run **non-collinear** VASP on GPU cards
+
+  - ```vasp-gpu``` to run **standard** VASP on GPU cards
+  - ```vasp-gpu-so``` to run **non-collinear** VASP on GPU cards
 
 To run VASP on GPU cards in batch mode, create a batch submission script called **vasp.sbatch** as follows:
 
