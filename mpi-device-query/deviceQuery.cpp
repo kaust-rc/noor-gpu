@@ -11,6 +11,7 @@
 
 
 #define MPI_CHECK(call) call
+#include <unistd.h>
 #include <iostream>
 #include <string>
 #include <sstream>
