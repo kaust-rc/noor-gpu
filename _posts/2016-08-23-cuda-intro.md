@@ -7,9 +7,9 @@ comments: false
 # Introduction to CUDA on Noor GPU
 
 
-Some information from [Nvidia Developer Zone](https://developer.nvidia.com/accelerated-computing-training)
+Some information from [Nvidia Developer Zone](https://developer.nvidia.com/accelerated-computing-training){:target="_blank"}
 
-[Good video](https://youtu.be/Ed_h2km0liI) to start writing CUDA.
+[Good video](https://youtu.be/Ed_h2km0liI){:target="_blank"} to start writing CUDA.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ed_h2km0liI" frameborder="0" allowfullscreen></iframe>
 

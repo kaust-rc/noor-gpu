@@ -67,5 +67,5 @@ $ xmovie -scale dump.indent
 
 ## Further Reading
 
-  * [Package Commands](http://lammps.sandia.gov/doc/package.html)
-  * [LAMPS on GPU Documentation](http://lammps.sandia.gov/doc/accelerate_gpu.html)
+  * [Package Commands](http://lammps.sandia.gov/doc/package.html){:target="_blank"}
+  * [LAMPS on GPU Documentation](http://lammps.sandia.gov/doc/accelerate_gpu.html){:target="_blank"}

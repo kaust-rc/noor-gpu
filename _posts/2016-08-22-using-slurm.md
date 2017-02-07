@@ -6,10 +6,10 @@ comments: false
 ---
 
 # Using slurm on noor-gpu
-Generic resource (GRES) scheduling is supported through a flexible plugin mechanism. Support is currently provided for Graphics Processing Units (GPUs). [Find the documentation here](http://slurm.schedmd.com/gres.html)
+Generic resource (GRES) scheduling is supported through a flexible plugin mechanism. Support is currently provided for Graphics Processing Units (GPUs). [Find the documentation here.](http://slurm.schedmd.com/gres.html){:target="_blank"}
 
 
-A small utility is provided to test the allocation on [https://github.com/kaust-rc/noor-gpu](https://github.com/kaust-rc/noor-gpu/tree/master/mpi-device-query)
+A small utility is provided to test the allocation on [https://github.com/kaust-rc/noor-gpu](https://github.com/kaust-rc/noor-gpu/tree/master/mpi-device-query){:target="_blank"}
 
 
 At the moment, only 1 process is mapped to 1 gpu, (we may change this in the near future).

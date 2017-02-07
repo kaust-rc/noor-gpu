@@ -101,8 +101,8 @@ You should have one rank per GPU otherwise you will not benefit from GPU perform
 ## Further Reading
 
   * [VASP on GPU pdf from Max Hutchinson]({{ site.baseurl }}/docs/vaspongpus_update.pdf)
-  * [Max Huthinson's Paper](http://www.sciencedirect.com/science/article/pii/S0010465512000707)
-  * [GPU port of VASP](http://cms.mpi.univie.ac.at/wiki/index.php/GPU_port_of_VASP)
-  * [Release Notes](https://www.vasp.at/index.php/news/44-administrative/115-new-release-vasp-5-4-1-with-gpu-support)
-  * [Peter Larsson (Linkoping Uni) experience with VASP on GPU](https://www.nsc.liu.se/~pla/blog/2015/11/16/vaspgpu/)
-  * [Talk (18:36 duration) by Max Hutchinson at SC 15](http://images.nvidia.com/events/sc15/SC5120-vasp-gpus.html)
+  * [Max Huthinson's Paper](http://www.sciencedirect.com/science/article/pii/S0010465512000707){:target="_blank"}
+  * [GPU port of VASP](http://cms.mpi.univie.ac.at/wiki/index.php/GPU_port_of_VASP){:target="_blank"}
+  * [Release Notes](https://www.vasp.at/index.php/news/44-administrative/115-new-release-vasp-5-4-1-with-gpu-support){:target="_blank"}
+  * [Peter Larsson (Linkoping Uni) experience with VASP on GPU](https://www.nsc.liu.se/~pla/blog/2015/11/16/vaspgpu/){:target="_blank"}
+  * [Talk (18:36 duration) by Max Hutchinson at SC 15](http://images.nvidia.com/events/sc15/SC5120-vasp-gpus.html){:target="_blank"}
