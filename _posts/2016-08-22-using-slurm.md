@@ -14,8 +14,8 @@ A small utility is provided to test the allocation on [https://github.com/kaust-
 
 At the moment, only 1 process is mapped to 1 gpu, (we may change this in the near future).
 
-```bash
 
+```bash
 ## Request 1 k20, 1 per each node
 #SBATCH --gres=gpu:k20:1 -n 1 -N 1
 
@@ -24,5 +24,4 @@ At the moment, only 1 process is mapped to 1 gpu, (we may change this in the nea
 
 ## Request 24 k40, 8 per each node
 #SBATCH --gres=gpu:k40:8 -N 3
-
 ```
