@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "VASP on noor-gpu"
-date: 2016-08-19 16:25:06 -0700
+date: 2017-02-07 16:25:06 -0700
 comments: false
 ---
 
 
 # VASP on GPU
 
-You can run version 5.4.1, ```module load vasp/5.4.1/openmpi-1.10.2-intel-2015```, on one of our GPU nodes. Our tests showed a speedup of 2-5x. You get the best performance gains for medium to large systems. We ran tests on three 16-cores node for pure CPU calculations while we ran the GPU test on three eight GPU nodes. The pure CPU test used 48 MPI ranks while the GPU test used only 24 ranks, one per GPU.
+You can run version 5.4.1, ```module load vasp/5.4.1/openmpi-1.10.4-intel-2016```, on one of our GPU nodes. Our tests showed a speedup of 2x to 5x. You get the best performance gains for medium to large systems. We ran tests on three 16-cores node for pure CPU calculations while we ran the GPU test on three eight GPU nodes. The pure CPU test used 48 MPI ranks while the GPU test used only 24 ranks, one per GPU.
 
 Today's limit is that you can use at most as many ranks as GPU cards on the node. We're working with NVIDIA to allow using more ranks than available GPU cards.
 
@@ -34,7 +34,7 @@ To run VASP on GPU cards in batch mode, create a batch submission script called 
 #SBATCH --gres=gpu:k40:8
 
 module purge
-module load vasp/5.4.1/openmpi-1.10.2-intel-2015
+module load vasp/5.4.1/openmpi-1.10.4-intel-2016
 mpirun --bind-to core vasp_gpu
 ```
 
@@ -46,7 +46,7 @@ $ sbatch vasp.sbatch
 You should see something like this in your output file, e.g. ```vasp-gpu.227452.out``` if your ranks are using the GPU cards correctly:
 
 ```bash
-Sun Aug 28 09:53:48 AST 2016
+Tue Feb 07 09:53:48 AST 2017
 Using device 0 (rank 0, local rank 0, local size 8) : Tesla K40m
 Using device 1 (rank 1, local rank 1, local size 8) : Tesla K40m
 Using device 2 (rank 2, local rank 2, local size 8) : Tesla K40m
@@ -87,7 +87,7 @@ Using device 4 (rank 20, local rank 4, local size 8) : Tesla K40m
   GPU developers: A. Anciaux-Sedrakian, C. Angerer, and M. Hutchinson.
  *******************************************************************************
 
- vasp.5.4.1 05Feb16 (build Aug 24 2016 15:17:54) complex
+ vasp.5.4.1 05Feb16 (build Feb 06 2017 15:17:54) complex
 ```
 
 You should have one rank per GPU otherwise you will not benefit from GPU performance.
@@ -104,4 +104,4 @@ You should have one rank per GPU otherwise you will not benefit from GPU perform
   * [GPU port of VASP](http://cms.mpi.univie.ac.at/wiki/index.php/GPU_port_of_VASP)
   * [Release Notes](https://www.vasp.at/index.php/news/44-administrative/115-new-release-vasp-5-4-1-with-gpu-support)
   * [Peter Larsson (Linkoping Uni) experience with VASP on GPU](https://www.nsc.liu.se/~pla/blog/2015/11/16/vaspgpu/)
-  * [Talk (18:36 duration) by Max Hutchinson at SC 15](http://images.nvidia.com/events/sc15/SC5120-vasp-gpus.html) 
+  * [Talk (18:36 duration) by Max Hutchinson at SC 15](http://images.nvidia.com/events/sc15/SC5120-vasp-gpus.html)
