@@ -28,7 +28,6 @@ To run VASP on GPU cards in batch mode, create a batch submission script called 
 #SBATCH --output=vasp-gpu.%j.out
 #SBATCH --error=vasp-gpu.%j.err
 #SBATCH --time=1-0
-
 #SBATCH --nodes=3
 #SBATCH --ntasks=24
 #SBATCH --gres=gpu:k40:8
