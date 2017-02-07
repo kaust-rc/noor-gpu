@@ -15,13 +15,13 @@ Some information from [Nvidia Developer Zone](https://developer.nvidia.com/accel
 
 Nvidia provides some great samples:
 
-```
+```bash
 #Copy the nvidia-samples from /opt/share to user home
 cp -r /opt/share/cuda/7.5/NVIDIA_CUDA-7.5_Samples/ ~
 cd ~/NVIDIA_CUDA-7.5_Samples/
 
 #Compile all the samples  (this takes some time)
-module load cuda mpich gcc
+module load cuda/7.5 mpich gcc
 make
 
 #Run a sample, should return useful information about the GOU cards
