@@ -32,6 +32,8 @@ To run VASP on GPU cards in batch mode, create a batch submission script called 
 #SBATCH --ntasks=24
 #SBATCH --gres=gpu:k40:8
 
+# Note that no_nodes * no_of_gpu_cards_per_node = no_cores to specify
+
 module purge
 module load vasp/5.4.1/openmpi-1.10.4-intel-2016
 mpirun --bind-to core vasp_gpu
